@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- Informa ao navegador a versão do HTML, no caso a 5 -->
 <html lang="pt-BR">
- 
+
 <head>
     <!-- Onde ficam as configurações da página - parte não visual -->
     <meta charset="UTF-8">
@@ -10,32 +10,35 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- Unica tag no HEAD que é visivel -->
 </head>
- 
+
 <body>
     <!-- Parte visual - O que vêmos na página -->
- 
- 
+
+
     <form action="" class="form">
         <h1>Formulário do torcedor</h1>
         <div>
-            <div><label for="fname" class="forms__label">Insira seu nome:</label>
+            <div><label for="fname" class="forms__label">Digite seu nome:</label>
                 <input type="text" id="">
             </div>
-            <div><label for="" class="forms__label">Informe sua idade:</label>
+            <div><label for="" class="forms__label">Digite sua idade:</label>
                 <input type="number" name="" id="">
             </div>
-            <div><label for="" class="forms__label">Insira o número de telefone com DDD:</label>
+            <div><label for="" class="forms__label">Digite o número de telefone com DDD:</label>
                 <input type="number" name="" id="">
             </div>
-            <div><select for="" class="forms__label">Selecione o seu time:
-                <option value="san">Santos</option>
-                <option value="sp">São Paulo</option>
-                <option value="cor">Corinthians</option>
-                <option value="fla">Flamengo</option>
-                <option value="vas">Vasco</option>
-                <option value="pal">Palmeiras</option>
-            </select>
-                
+            <div>
+                <label for="time">Escolha o time do coração</label>
+                <select for="" class="forms__label">Selecione o seu time:
+                    <option value="">Selecione seu time</option>
+                    <option value="san">Santos</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="cor">Corinthians</option>
+                    <option value="fla">Flamengo</option>
+                    <option value="vas">Vasco</option>
+                    <option value="pal">Palmeiras</option>
+                </select>
+
             </div>
             <div><label for="" class="forms__label">É sócio torcedor?</label>
                 <input type="radio" name="" id="">SIM
@@ -44,7 +47,7 @@
             <div><label for="" class="forms__label">Aceita receber SMS de notícias sobre seu time?</label>
                 <input type="radio" name="" id="">SIM
                 <input type="radio" name="" id="">NÃO
- 
+
             </div>
             <div><label for="" class="forms__label">Com que frequência você vai ao estádio?</label>
                 <input type="radio" name="1" id="">nenhuma<br>
@@ -52,11 +55,11 @@
                 <input type="radio" name="1" id="">3 vezes por mês<br>
                 <input type="radio" name="1" id="">Mais de 3 vezes
             </div>
- 
+
             <div><input type="submit" value="Concluir" id="bnt-submit"></div>
         </div>
- 
+
     </form>
 </body>
- 
+
 </html>
