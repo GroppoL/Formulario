@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+
+}
+
+
+.form{
+background-color: rgb(165, 172, 240);
+width: 14%;
+color: rgb(55, 2, 94);
+margin: 20px;
+padding: 20px;
+border-radius: 15px;
+text-align:center ;
+
+}
+
+#bnt-submit{
+ background-color: rgb(165, 172, 240);
+  width: 30%;
+  color: rgb(55, 2, 94);
+  margin: 20px;
+  padding: 4px;
+  border-radius: 7px;
+   
+}
